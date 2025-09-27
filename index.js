@@ -16,7 +16,8 @@ const swaggerOptions = {
             description: "API para gestionar cartelera de películas"
         },
         servers: [
-            { url: "http://localhost:3000/api" } 
+            { url: "http://localhost:3000/api" }, // Desarrollo local
+            { url: "https://segundoparcialdesarrollo.onrender.com/api" } // Producción en Render
         ]
     },
     apis: ["./routes/*.js"]
